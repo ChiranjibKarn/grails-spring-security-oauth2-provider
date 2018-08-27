@@ -31,7 +31,7 @@ import grails.plugin.springsecurity.oauthprovider.servlet.OAuth2AuthorizationEnd
 import grails.plugin.springsecurity.oauthprovider.servlet.OAuth2TokenEndpointExceptionResolver
 import grails.plugin.springsecurity.oauthprovider.filter.StatelessSecurityContextPersistenceFilter
 import grails.plugins.Plugin
-import org.springframework.boot.context.embedded.FilterRegistrationBean
+import org.springframework.boot.web.servlet.FilterRegistrationBean
 import org.springframework.http.converter.ByteArrayHttpMessageConverter
 import org.springframework.http.converter.FormHttpMessageConverter
 import org.springframework.http.converter.StringHttpMessageConverter
